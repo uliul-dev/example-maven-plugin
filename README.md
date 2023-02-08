@@ -7,6 +7,12 @@ This repository contains example code for an Apache Maven Plugin.  To see see ho
 - [Java 8](https://adoptopenjdk.net/)
 - [Maven 3](https://maven.apache.org/download.cgi)
 
+## Example Maven Plugin
+
+To see see how this was build, take a look at the corresponding blog posts: 
+- [How to Build a Maven Plugin](https://developer.okta.com/blog/2019/09/23/tutorial-build-a-maven-plugin)
+- [Tutorial: How to Create a Maven Plugin](https://dzone.com/articles/tutorial-create-a-maven-plugin)
+
 ## Getting Started
 
 To install this example, run the following commands:
@@ -16,8 +22,9 @@ cd example-maven-plugin
 mvn install
 ```
 
-## Run it!
+### Run it
 
 ```bash
 mvn com.okta.example:example-maven-plugin:version
+mvn package -file usage-example\pom.xml
 ```
